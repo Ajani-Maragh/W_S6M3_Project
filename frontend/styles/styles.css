@@ -17,6 +17,7 @@ body {
 
 h1, h2 {
   color: #93005a;
+  text-align: center;
 }
 
 #root {
@@ -33,4 +34,14 @@ header, footer {
   flex-direction: column;
   align-items: center;
   padding: 1rem;
+  background-color: orange;
+}
+
+img {
+  border: 5px solid black;
+}
+
+figcaption {
+  text-align: center;
+  color: #93005a;
 }
